@@ -11,7 +11,17 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body dir="rtl" className={cairo.className}>{children}</body>
+      <head>
+        <script
+          src="https://alwingulla.com/88/tag.min.js"
+          data-zone="86112"
+          async
+          data-cfasync="false"
+        ></script>
+      </head>
+      <body dir="rtl" className={cairo.className}>
+        {children}
+      </body>
     </html>
   );
 }
