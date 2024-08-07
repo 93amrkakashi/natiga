@@ -40,7 +40,7 @@ const Natiga = () => {
   };
 
   return (
-    <div className="min-h-screen flex flex-col items-center justify-start gap-4 bg-gray-100 p-4 pt-8">
+    <div className="min-h-screen flex flex-col items-center justify-center md:justify-start gap-4 bg-gray-100 p-4 pt-8">
       <h1 className="text-3xl font-bold my-8">
        الآن نتيجة الثانوية العامة 2024 مع درجات المواد بالتفصيل
         </h1>
